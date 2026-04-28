@@ -2,8 +2,9 @@
 
 int main()
 {
-  //ここにコードを書く
-
-  
+  int a, b;
+  scanf("%d", &a);
+  scanf("%d", &b);
+  printf("%bd", a);
   return 0;
 }
