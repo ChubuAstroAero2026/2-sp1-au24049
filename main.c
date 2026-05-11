@@ -1,10 +1,11 @@
 #include <stdio.h>
 
-int main()
+int main(void)
 {
-  int a, b;
-  scanf("%d", &a);
-  scanf("%d", &b);
-  printf("%bd", a);
+  double A;
+  int B;
+  scanf("%lf", &A);
+  scanf("%d", &B);
+  printf("%.*f\n", B, A);
   return 0;
 }
